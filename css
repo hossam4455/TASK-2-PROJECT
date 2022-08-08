@@ -1,0 +1,158 @@
+* {
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+}
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  box-shadow: 0 0 10px 0 gray;
+}
+.navbar div {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar button {
+  padding: 10px;
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+.navbar button:hover {
+  background-color: gray;
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar input {
+  border: none;
+  margin-left: 10px;
+  flex: 1;
+  outline: none;
+  margin-top: 12px;
+  margin-right: 10px;
+  font-size: large;
+}
+.navbar .search-container {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20px;
+  flex: 1;
+  max-width: 1200px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar .search-container i {
+  margin: 20px;
+}
+.link_Udemy {
+  color: black;
+}
+.link_Udemy:hover {
+  color: blue;
+}
+.earth {
+  border: 1px gray solid;
+  padding: 8px;
+}
+.earth:hover {
+  background-color: gray;
+}
+.ima {
+  margin: auto;
+  width: 80%;
+}
+.text_over_img {
+  position: absolute;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  margin: -250px 20px;
+  padding: 20px;
+  flex-direction: column;
+  background: #fff;
+}
+
+.text_under_img {
+  margin-left: 220px;
+}
+
+.third_section p {
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  margin-top: 0.8rem, auto;
+  max-width: 80rem;
+  margin-right: 300px;
+  flex: 1;
+}
+.all_links {
+  margin-left: 220px;
+}
+.all_links a {
+  text-decoration: none;
+  flex: 1;
+  direction: none;
+  margin: 5px;
+  font-size: 1.2rem;
+  color: darkgrey;
+}
+.all_links a:hover {
+  color: black;
+}
+
+.courses {
+  margin-left: 11%;
+  width: 1415px;
+  border: 1px gray solid;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+.courses_text {
+  margin-left: 5%;
+}
+
+.a {
+  margin-top: -15px;
+}
+
+.explore button {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-left: 5%;
+  font-size: large;
+}
+
+.explore button:hover {
+  background-color: gray;
+}
+
+.course_imge {
+  border: 1px black solid;
+  box-shadow: 0 0 10px 0 gray;
+}
+.course {
+  width: 20%;
+  margin: 20px;
+
+  cursor: pointer;
+}
+
+.courses_flex {
+  display: flex;
+}
+.course:hover {
+  box-shadow: 0 0 10px 0 gray;
+}
+.num {
+  color: rgb(168, 144, 6);
+}
+
+.course i {
+  color: rgb(223, 200, 72);
+}
