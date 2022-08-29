@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "json-server -w courses.json",
+    "serve": "json-server -w data.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
